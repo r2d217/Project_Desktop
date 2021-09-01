@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script type="text/javascript" src="eel.js"></script>
+        <script type="text/javascript">
+            eel.expose(addText);
+            function addText()
+            {
+                var div = document.getElementById("test");
+                div.innerHTML += "<br>" + hellp;
+            }
+            
+        </script>
+    </head>
+    <body>
+        hello
+        <div id="test">
+
+        </div>
+    </body>
+</html>
